@@ -5,9 +5,17 @@
         "value": 0
       }
     },
+    "collisionBoxes": [
+      {
+        "min": {
+          "x": 0.004
+        }
+      }
+    ],
     "dropSelf": {
       "canDropSelf": false
     },
+    "maxFallSpeed": 1,
     "name": {
       "value": "block_concrete_orange"
     },
@@ -16,6 +24,7 @@
         "value": 0
       }
     },
+    "spring": 1,
     "textures": {
       "back": {
         "asset": "asset/Texture/Block/concrete_orange.png"
@@ -33,14 +42,187 @@
         "asset": "asset/Texture/Block/concrete_orange.png"
       },
       "up": {
-        "asset": "asset/Texture/Block/concrete_orange.png"
+        "asset": "asset/Texture/Block/wool_colored_orange_wool_1.png",
+        "selector": "asset/Texture/Block/wool_colored_orange_wool_1.png"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "f29e3a94-cc75-47f7-a60f-b3157ce4c92b"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "33f300b3-dbc9-4d43-abf7-37ab0344d934"
+              },
+              "pos": {
+                "x": 698,
+                "y": 310
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "ca8dcb1e-6021-476c-a458-50c7bcf6b843"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f29e3a94-cc75-47f7-a60f-b3157ce4c92b"
+              },
+              "pos": {
+                "x": 941,
+                "y": 302
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ReplaceBlockInRegionSingle",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Block"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Block"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "de56f515-9ee8-42c6-a2e5-ede1a2bba7b4"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SceneRegion",
+                        "rawval": {
+                          "region": {
+                            "max": {
+                              "y": 53,
+                              "z": 45
+                            },
+                            "min": {
+                              "x": -7,
+                              "y": 52,
+                              "z": 44
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ca8dcb1e-6021-476c-a458-50c7bcf6b843"
+              },
+              "pos": {
+                "x": 836,
+                "y": 440
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "6bb639cb-888f-44ea-bece-3bc459906404"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "de56f515-9ee8-42c6-a2e5-ede1a2bba7b4"
+              },
+              "pos": {
+                "x": 1318,
+                "y": 287
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "6bb639cb-888f-44ea-bece-3bc459906404"
+              },
+              "pos": {
+                "x": 1571,
+                "y": 196
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ce73aa69-24df-4c87-bd3a-6723940f1c62"
+            },
+            "type": "Trigger_BlockIn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "33f300b3-dbc9-4d43-abf7-37ab0344d934"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "702f5293-392d-4418-a965-dbc78b0369bc"
+            }
+          },
+          "type": "Trigger_BlockIn"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9d056c7e5fc1b9bbfa7722e51ecc10d5",
-      "triggers.bts": ""
+      "setting.json": "653bf99df35b4c0e0554ddee0d7b15a2",
+      "triggers.bts": "60f301e2d08adafa6ff83299658aa2d4"
     },
     "VERSION": "0.22"
   }

@@ -1,0 +1,18 @@
+{
+  "data": {
+    "md5": "2adf36b8d478f6afca9d0fb94e6b35a5",
+    "path": "asset/wde.layout",
+    "root": {
+      "id": {
+        "value": "cc33f655-00fc-4390-abbc-aa7f8e12a2df"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "2adf36b8d478f6afca9d0fb94e6b35a5",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

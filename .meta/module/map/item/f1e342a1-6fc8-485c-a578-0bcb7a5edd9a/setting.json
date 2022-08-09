@@ -1,0 +1,30 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "id": "8747167271540686849",
+        "name": "Folder0"
+      },
+      {
+        "__OBJ_TYPE": "Instance_SceneUI",
+        "id": "8747167360409681921"
+      }
+    ],
+    "name": {
+      "value": "map_f1e342a1-6fc8-485c-a578-0bcb7a5edd9a"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "1cb11758086c0b54677421af22e498a0"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -33,7 +33,8 @@
         "asset": "asset/Texture/Block/concrete_light_blue.png"
       },
       "up": {
-        "asset": "asset/Texture/Block/concrete_light_blue.png"
+        "asset": "asset/Texture/Block/concrete_light_blue.png",
+        "selector": "asset/Texture/Block/concrete_light_blue.png"
       }
     }
   },

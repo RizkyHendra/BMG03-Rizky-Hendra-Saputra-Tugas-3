@@ -1,0 +1,60 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Folder",
+      "customProperties": [],
+      "properties": {
+        "id": "8747167271540686849",
+        "isDataSet": "false",
+        "name": "Folder0"
+      }
+    },
+    {
+      "class": "SceneUI",
+      "customProperties": [],
+      "properties": {
+        "id": "8747167360409681921",
+        "isFaceCamera": "true",
+        "isLock": "true",
+        "isTop": "true",
+        "layoutFile": "",
+        "name": "SceneUI",
+        "position": "x:0 y:0 z:0",
+        "rangeDistance": "128",
+        "rotation": "x:0 y:0 z:0",
+        "size": "x:1 y:1",
+        "stretch": "false",
+        "uiID": "8747167360409681921",
+        "uiScaleMode": "0"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 720.0
+  }
+}

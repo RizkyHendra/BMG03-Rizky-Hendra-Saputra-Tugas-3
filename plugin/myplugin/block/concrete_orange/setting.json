@@ -15,7 +15,7 @@
       },
       "min": {
         "__OBJ_TYPE": "Vector3",
-        "x": 0,
+        "x": 0.004,
         "y": 0,
         "z": 0
       }
@@ -24,14 +24,14 @@
   "dropCount": 1,
   "dropSelf": false,
   "fall": false,
-  "maxFallSpeed": 1.5,
+  "maxFallSpeed": 0.05,
   "maxSpeed": 500.0,
   "recycle": false,
   "recycleTime": 20,
-  "spring": 0,
+  "spring": 1,
   "texture": [
     "@asset/Texture/Block/concrete_orange.png",
-    "@asset/Texture/Block/concrete_orange.png",
+    "@asset/Texture/Block/wool_colored_orange_wool_1.png",
     "@asset/Texture/Block/concrete_orange.png",
     "@asset/Texture/Block/concrete_orange.png",
     "@asset/Texture/Block/concrete_orange.png",

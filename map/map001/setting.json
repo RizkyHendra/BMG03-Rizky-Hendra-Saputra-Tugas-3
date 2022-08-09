@@ -3,15 +3,33 @@
   "canBreak": true,
   "hdr": 0,
   "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/9fd797fe-b9d1-4505-8d3e-793c69cd9a14",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8750416293063655425",
+        "name": "Ai",
+        "needSync": "true",
+        "position": "x:-2.5386953353882 y:50.999996185303 z:35.198875427246",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
   "skyBox": [
     {
       "texture": [
-        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
-        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+        "@asset/Texture/SkyBox/Night/Sky03_right.png",
+        "@asset/Texture/SkyBox/Night/Sky03_left.png",
+        "@asset/Texture/SkyBox/Night/Sky03_top.png",
+        "@asset/Texture/SkyBox/Night/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Night/Sky03_front.png",
+        "@asset/Texture/SkyBox/Night/Sky03_front.png"
       ]
     }
   ],

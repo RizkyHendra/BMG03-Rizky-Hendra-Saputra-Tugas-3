@@ -2,8 +2,8 @@
   "breakTime": 20,
   "canClick": false,
   "candrop": false,
-  "canSwim": false,
-  "climbSpeed": 0.0,
+  "canSwim": true,
+  "climbSpeed": 50.0,
   "collisionBoxes": [
     {
       "__OBJ_TYPE": "Box",

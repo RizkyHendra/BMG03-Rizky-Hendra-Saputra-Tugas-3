@@ -4,25 +4,48 @@
       "base": {
         "__OBJ_TYPE": "SkyBoxStatic",
         "back": {
-          "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_back.png"
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png"
         },
         "bottom": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png",
           "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
         },
         "front": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png",
           "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_front.png"
         },
         "left": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png",
           "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_left.png"
         },
         "right": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png",
           "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_right.png"
         },
         "top": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png",
           "selector": "editor/BlockEmpty/asset/Texture/SkyBox/Common2/Sky03_top.png"
         }
       }
     },
+    "fog": {
+      "density": {
+        "value": 0.41
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/9fd797fe-b9d1-4505-8d3e-793c69cd9a14",
+        "id": "8750416293063655425",
+        "name": "Ai",
+        "position": {
+          "x": -2.5386953353882,
+          "y": 50.999996185303,
+          "z": 35.198875427246
+        }
+      }
+    ],
     "name": {
       "value": "map_map001"
     },
@@ -32,7 +55,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a2277adaca70ffa250b6f3d15635982f"
+      "DataSet": [],
+      "setting.json": "7edf62e4b2d47382ea730b4fdc9f3f59"
     },
     "VERSION": "0.22"
   }

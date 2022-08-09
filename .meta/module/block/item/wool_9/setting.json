@@ -5,6 +5,8 @@
         "value": 0
       }
     },
+    "canSwim": true,
+    "climbSpeed": 1000,
     "dropSelf": {
       "canDropSelf": false
     },
@@ -39,7 +41,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "dbf7565f3a2f7abb41cfad26fb8c547f",
+      "setting.json": "c54f93b03a8a4fb35cda3c96ebfa1c05",
       "triggers.bts": ""
     },
     "VERSION": "0.22"

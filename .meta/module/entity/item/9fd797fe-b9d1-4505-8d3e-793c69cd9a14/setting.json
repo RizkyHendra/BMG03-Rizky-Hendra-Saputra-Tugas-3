@@ -1,0 +1,30 @@
+{
+  "data": {
+    "AI_attack": {
+      "chaseDistance": 3,
+      "enable": true
+    },
+    "AI_home": {
+      "homeSize": 2
+    },
+    "AI_patrol": {
+      "patrolDistance": 2,
+      "patrolMode": "randomPath"
+    },
+    "collision": true,
+    "damage": 10,
+    "enableAI": true,
+    "maxHp": 100,
+    "moveSpeed": 1,
+    "name": {
+      "value": "entity_9fd797fe-b9d1-4505-8d3e-793c69cd9a14"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f24803ccc7f9794d63188713fe1e81b3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

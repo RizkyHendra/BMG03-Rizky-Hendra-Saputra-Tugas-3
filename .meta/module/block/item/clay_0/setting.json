@@ -5,9 +5,6 @@
         "value": 0
       }
     },
-    "dropSelf": {
-      "canDropSelf": false
-    },
     "name": {
       "value": "block_clay_0"
     },
@@ -35,12 +32,82 @@
       "up": {
         "asset": "asset/Texture/Block/clay.png"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KickOutPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "2f278b31-0d03-417e-8f27-7787c68869ae"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "598ac4b7-168f-47c8-8fcc-4028ba6bf29b"
+              },
+              "pos": {
+                "x": 711,
+                "y": 278
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "2f278b31-0d03-417e-8f27-7787c68869ae"
+              },
+              "pos": {
+                "x": 1047,
+                "y": 216
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "3d9d5293-80dd-4859-adb8-3acdc4ace62f"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "598ac4b7-168f-47c8-8fcc-4028ba6bf29b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "6c61c460-8f65-4b85-be4d-d11c59188bb5"
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7be9543f86fdf6f0c6ee1128206c8d43",
-      "triggers.bts": ""
+      "setting.json": "54e17db4609617d013fdef4abfb8c394",
+      "triggers.bts": "72be5a299431a7e6d27798b1abaa5da5"
     },
     "VERSION": "0.22"
   }

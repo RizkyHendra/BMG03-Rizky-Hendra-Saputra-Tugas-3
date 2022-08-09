@@ -1,0 +1,3 @@
+BLOCK_TOUCH {
+	KickOutPlayer(entity = $obj1)
+}

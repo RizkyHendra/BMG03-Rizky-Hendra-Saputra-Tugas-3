@@ -9,27 +9,53 @@
       }
     },
     "AI_home": {
-      "homeSize": 5.0
+      "homeSize": 5
     },
     "boundingVolume": {
-      "height": 1.7,
-      "radius": 0.43,
-      "type": "Capsule"
+      "memory": {
+        "Capsule": "1.700000-0.430000",
+        "Cylinder": "1.000000-0.500000"
+      },
+      "size": {
+        "x": 1.6
+      }
     },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Capsule": "1.700000-0.430000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "size": {
+        "x": 1.6
+      }
+    },
+    "canRevive": true,
+    "collision": true,
+    "damage": 20,
     "deadAction": {
       "deathHideTime": {
         "value": 60
       },
       "playDeadAction": "die_front"
     },
+    "destroyTime": {
+      "value": 20
+    },
+    "hideHp": false,
     "isPlayer": true,
+    "maxHp": 100,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 60
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6a07f8bdd454bf0b4b3f59956a1f3f4d",
+      "setting.json": "55a1ab8f02d4e58164ceb1602ef18a1e",
       "triggers.bts": ""
     },
     "VERSION": "0.22"

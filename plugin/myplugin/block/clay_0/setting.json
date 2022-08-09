@@ -22,7 +22,7 @@
     }
   ],
   "dropCount": 1,
-  "dropSelf": false,
+  "dropSelf": true,
   "fall": false,
   "maxFallSpeed": 1.5,
   "maxSpeed": 500.0,

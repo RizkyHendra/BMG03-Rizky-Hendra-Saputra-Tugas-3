@@ -1,0 +1,15 @@
+{
+  "data": {
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_d9ccdcd9-aa49-4d1a-8c43-68803d98bdec"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6aff6437386dde8013fbcc4d2fffeb30",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

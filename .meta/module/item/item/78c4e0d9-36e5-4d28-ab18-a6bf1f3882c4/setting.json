@@ -1,0 +1,19 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "name": {
+      "value": "item_78c4e0d9-36e5-4d28-ab18-a6bf1f3882c4"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7f4df86a7fe1b41cf7419cad6a2d3af2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
